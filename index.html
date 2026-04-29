@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fashion Hub</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-image:url("cloth.jpg"); 
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .price {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        
+        .btn {
+            padding: 12px 25px;
+            background-color: #ff3f6c;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header >
+    
+    <h1>Fashion Hub</h1>
+    <p>Trendy Clothes for Everyone</p>
+    
+    <a href="men.html" class="btn">Shop Now</a>
+ 
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="men.html">Men</a>
+    <a href="women.html">Women</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2 style="text-align:center;">Our Collection</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="shirt.jpg" alt="Shirt">
+            <h3>Casual Shirt</h3>
+            <p class="price">₹799</p>
+            <button>Add to Cart</button>
+        </div> 
+
+        <div class="card">
+            <img src="dress.jpg" alt="Dress">
+            <h3>Stylish Dress</h3>
+            <p class="price">₹1299</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="jacket.jpg" alt="Jacket">
+            <h3>Winter Jacket</h3>
+            <p class="price">₹1999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Fashion Hub | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
